@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Click">Don\'t click it</string>
+    <string name="HelloXamarin">Hello Xamarin!</string>
+    <string name="ApplicationName">HelloXamarin</string>
+    <string name="ButtonClicked">You really did it...</string>
+</resources>
