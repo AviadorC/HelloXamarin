@@ -14,7 +14,7 @@ namespace ElixirService
 
         public async Task<IEnumerable<BankModel>> GetBanks()
         {
-            string uri = "http://localhost:3132/api/GetBanks";
+            string uri = "http://elixirtime.azurewebsites.net/api/GetBanks";
             using (var http = new HttpClient())
             {
                 http.DefaultRequestHeaders.Add("Accept", "application/json");
@@ -32,7 +32,7 @@ namespace ElixirService
 
         public async Task<TransferResultModel> GetElixirTime(TransferModel model)
         {
-            string uri = "http://localhost:3132/api/GetElixirTime";
+            string uri = "http://elixirtime.azurewebsites.net/api/GetElixirTime";
             using (var http = new HttpClient())
             {
                 http.DefaultRequestHeaders.Add("Accept", "application/json");
