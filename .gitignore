@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WebApplication1/packages
+/WebApplication1/WebApplication1/bin
+/WebApplication1/WebApplication1/obj/Debug
+/WebApplication1/WebApplication1.Tests
+/WebApplication1/ElixirService/bin/Debug
+/WebApplication1/ElixirService/obj/Debug
+/WebApplication1/ElixirServiceTestProject/bin/Debug
